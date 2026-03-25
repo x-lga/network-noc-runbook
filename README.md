@@ -32,14 +32,13 @@ Structured L1 NOC troubleshooting runbook built from real-world lab experience a
 ## Lab Environment
 
 Built and tested in a Proxmox-hosted multi-VM environment:
-- pfSense 2.7 — VLAN 10/20/99, WireGuard VPN, DHCP per VLAN, firewall rules
-- Windows Server 2022 — AD domain controller, DNS, DHCP
-- Windows 10/11 clients — domain-joined, VLAN 10
-- Ubuntu 22.04 — VLAN 10, Bash scripting lab
+- pfSense 2.7 - VLAN 10/20/99, WireGuard VPN, DHCP per VLAN, firewall rules
+- Windows Server 2022 - AD domain controller, DNS, DHCP
+- Windows 10/11 clients - domain-joined, VLAN 10
+- Ubuntu 22.04 - VLAN 10, Bash scripting lab
 
 ---
 
 ## Outcome
 
-This runbook reduces NOC first-response time by providing a documented, repeatable triage methodology. The escalation standard ensures L2 receives complete information on handoff — reducing back-and-forth and improving mean time to resolution (MTTR).
-```
+This runbook reduces NOC first-response time by providing a documented, repeatable triage methodology. The escalation standard ensures L2 receives complete information on handoff - reducing back-and-forth and improving mean time to resolution (MTTR).
