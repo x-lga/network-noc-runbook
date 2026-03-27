@@ -98,3 +98,32 @@ ipconfig /all
 ```
 
 ---
+
+## Winsock Reset (Last Resort Before Escalation)
+
+```cmd
+netsh winsock reset
+netsh int ip reset
+ipconfig /flushdns
+ipconfig /release
+ipconfig /renew
+```
+
+**Always restart after winsock reset.**
+
+---
+
+## Escalation Trigger
+
+Escalate to L2 if:
+- Gateway unreachable from multiple devices on same switch
+- IP address cannot be obtained after /release /renew
+- Issue persists after winsock reset and restart
+
+**Escalation documentation must include:**
+- ipconfig /all output (screenshot or paste)
+- Results of each ping command
+- Steps taken and results
+```
+
+---
