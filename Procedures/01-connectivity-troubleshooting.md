@@ -74,3 +74,15 @@ ping google.com
 | Pass | Pass | Pass | Pass | Issue is application-level → not network |
 
 ---
+
+### Layer 4 — Transport
+
+```cmd
+# Check if a specific port is reachable (example: RDP port 3389)
+Test-NetConnection -ComputerName 192.168.1.100 -Port 3389
+
+# Check local firewall is not blocking
+netsh advfirewall show allprofiles state
+```
+
+---
