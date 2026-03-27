@@ -43,3 +43,34 @@ Enable-NetAdapter -Name "Ethernet"   # Replace with actual adapter name
 - [ ] No "Unidentified Network" warnings in Network Connections
 
 ---
+
+### Layer 3 — Network (IP / Routing)
+
+```cmd
+# Check IP configuration — look for valid IP, subnet, gateway, DNS
+ipconfig /all
+
+# Ping loopback — confirms TCP/IP stack is functional
+ping 127.0.0.1
+
+# Ping default gateway — confirms local network connectivity
+ping <default-gateway-ip>
+
+# Ping external IP — confirms internet routing (bypasses DNS)
+ping 8.8.8.8
+
+# Ping external hostname — tests DNS resolution
+ping google.com
+```
+
+**Interpretation table:**
+
+| Loopback | Gateway | 8.8.8.8 | google.com | Likely Cause |
+|----------|---------|---------|------------|-------------|
+| Fail | — | — | — | TCP/IP stack corrupt → netsh winsock reset |
+| Pass | Fail | — | — | Local network issue (cable, VLAN, switch port) |
+| Pass | Pass | Fail | — | Router/WAN issue → check gateway, escalate |
+| Pass | Pass | Pass | Fail | DNS failure → see Procedure 02 |
+| Pass | Pass | Pass | Pass | Issue is application-level → not network |
+
+---
