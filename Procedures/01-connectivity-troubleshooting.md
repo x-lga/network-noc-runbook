@@ -86,3 +86,15 @@ netsh advfirewall show allprofiles state
 ```
 
 ---
+
+## DHCP Release and Renew
+
+If the device has an APIPA address (169.254.x.x), DHCP has failed:
+
+```cmd
+ipconfig /release
+ipconfig /renew
+ipconfig /all
+```
+
+---
