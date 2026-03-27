@@ -2,7 +2,6 @@
 
 **Category:** Network Incident  
 **ITIL 4 Priority:** P2 (single user) / P1 (multiple users or site-wide)  
-**Cert Alignment:** CompTIA Network+, A+
 
 ---
 
