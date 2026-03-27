@@ -124,5 +124,5 @@ Escalate to L2 if:
 - ipconfig /all output (screenshot or paste)
 - Results of each ping command
 - Steps taken and results
-```
+
 
