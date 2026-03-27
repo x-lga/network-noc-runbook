@@ -28,3 +28,18 @@ Work from Layer 1 upward. Do not skip layers.
 **If Layer 1 passes:** Proceed to Layer 2
 
 ---
+
+### Layer 2 — Data Link
+
+```powershell
+# Check NIC status
+Get-NetAdapter | Select-Object Name, Status, LinkSpeed, MacAddress
+
+# Check if NIC is enabled
+Enable-NetAdapter -Name "Ethernet"   # Replace with actual adapter name
+```
+
+- [ ] NIC shows "Up" status and a valid link speed
+- [ ] No "Unidentified Network" warnings in Network Connections
+
+---
