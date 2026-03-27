@@ -126,4 +126,3 @@ Escalate to L2 if:
 - Steps taken and results
 ```
 
----
