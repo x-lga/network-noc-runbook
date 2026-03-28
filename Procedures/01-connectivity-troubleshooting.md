@@ -17,7 +17,7 @@
 
 Work from Layer 1 upward. Do not skip layers.
 
-### Layer 1 — Physical
+### Layer 1 - Physical
 
 - [ ] Check NIC lights on the back of the PC: link light (solid) + activity light (blinking)
 - [ ] Reseat ethernet cable at both ends
@@ -29,7 +29,7 @@ Work from Layer 1 upward. Do not skip layers.
 
 ---
 
-### Layer 2 — Data Link
+### Layer 2 - Data Link
 
 ```powershell
 # Check NIC status
@@ -44,7 +44,7 @@ Enable-NetAdapter -Name "Ethernet"   # Replace with actual adapter name
 
 ---
 
-### Layer 3 — Network (IP / Routing)
+### Layer 3 - Network (IP / Routing)
 
 ```cmd
 # Check IP configuration — look for valid IP, subnet, gateway, DNS
@@ -75,7 +75,7 @@ ping google.com
 
 ---
 
-### Layer 4 — Transport
+### Layer 4 - Transport
 
 ```cmd
 # Check if a specific port is reachable (example: RDP port 3389)
