@@ -15,7 +15,7 @@
 
 ## Diagnostic Steps
 
-### Step 1 — Check configured DNS servers
+### Step 1 - Check configured DNS servers
 
 ```cmd
 ipconfig /all
@@ -23,6 +23,6 @@ ipconfig /all
 
 Look for: `DNS Servers . . . . . . . . . . : 192.168.1.1`
 
-If blank or shows 169.254.x.x — DHCP failure. See Procedure 01.
+If blank or shows 169.254.x.x - DHCP failure. See Procedure 01.
 
 ---
