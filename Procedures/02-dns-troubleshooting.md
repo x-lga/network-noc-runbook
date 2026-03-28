@@ -12,3 +12,17 @@
 - Applications that use hostnames fail; applications using IP work
 
 ---
+
+## Diagnostic Steps
+
+### Step 1 — Check configured DNS servers
+
+```cmd
+ipconfig /all
+```
+
+Look for: `DNS Servers . . . . . . . . . . : 192.168.1.1`
+
+If blank or shows 169.254.x.x — DHCP failure. See Procedure 01.
+
+---
