@@ -1,4 +1,4 @@
-# Procedure 01 — Connectivity Troubleshooting
+# Procedure 01 - Connectivity Troubleshooting
 
 **Category:** Network Incident  
 **ITIL 4 Priority:** P2 (single user) / P1 (multiple users or site-wide)  
