@@ -87,6 +87,6 @@ Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ResetServerAddresses
 - Internal DNS server unreachable → L2 (DNS server issue, not client)
 - Port 53 blocked → L2 (firewall rule change required)
 - Domain controller DNS failing for multiple users → P1 escalation
-```
+
 
 ---
