@@ -49,3 +49,20 @@ ping <device-ip> -n 10
 - Gradual degradation = resource exhaustion or hardware wear
 
 ---
+
+### Step 4 — Attempt remote reboot
+
+If you have access to the device's management interface (iDRAC, iLO, IPMI):
+
+```
+1. Log into OOB management interface
+2. Confirm device shows as powered on but unresponsive
+3. Issue a graceful restart if possible
+4. If graceful restart unavailable: hard reset (document this in the ticket)
+```
+
+If no management interface:
+- Contact on-site staff to physically check/reboot the device
+- Log the contact attempt in the ticket
+
+---
