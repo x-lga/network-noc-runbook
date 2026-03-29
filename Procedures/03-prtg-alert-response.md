@@ -1,4 +1,4 @@
-# Procedure 03 — PRTG Alert Response
+# Procedure 03 - PRTG Alert Response
 
 **Category:** NOC Event Management  
 **ITIL 4 Priority:** Determined by sensor type and alert threshold 
@@ -10,16 +10,16 @@
 | Status | Colour | Meaning |
 |--------|--------|---------|
 | Up | Green | Device/service operating within thresholds |
-| Warning | Yellow | Approaching threshold — monitor closely |
+| Warning | Yellow | Approaching threshold - monitor closely |
 | Down | Red | Device/service unreachable or threshold breached |
-| Paused | Blue | Manually paused — check if intentional |
-| Unknown | Grey | No data received — sensor misconfigured or agent issue |
+| Paused | Blue | Manually paused - check if intentional |
+| Unknown | Grey | No data received - sensor misconfigured or agent issue |
 
 ---
 
-## Procedure — Sensor Shows DOWN
+## Procedure - Sensor Shows DOWN
 
-### Step 1 — Verify the alert is real
+### Step 1 - Verify the alert is real
 
 Before acting, confirm this is not a sensor misconfiguration or transient blip.
 
@@ -33,7 +33,7 @@ ping <device-ip> -n 10
 
 ---
 
-### Step 2 — Check if adjacent devices are affected
+### Step 2 - Check if adjacent devices are affected
 
 - In PRTG device tree: expand the parent device group
 - If multiple devices on the same switch are DOWN → switch or uplink issue (not individual device)
@@ -41,7 +41,7 @@ ping <device-ip> -n 10
 
 ---
 
-### Step 3 — Check PRTG history
+### Step 3 - Check PRTG history
 
 - Click the sensor > Graph > Last 24 hours
 - Look for: did this drop suddenly or degrade gradually?
@@ -50,7 +50,7 @@ ping <device-ip> -n 10
 
 ---
 
-### Step 4 — Attempt remote reboot
+### Step 4 - Attempt remote reboot
 
 If you have access to the device's management interface (iDRAC, iLO, IPMI):
 
@@ -67,7 +67,7 @@ If no management interface:
 
 ---
 
-### Step 5 — Escalate if unresolved
+### Step 5 - Escalate if unresolved
 
 Escalate to L2 with:
 - Device name, IP, and PRTG sensor name
@@ -78,7 +78,7 @@ Escalate to L2 with:
 
 ---
 
-## Procedure — High Latency / Packet Loss Warning
+## Procedure - High Latency / Packet Loss Warning
 
 ```cmd
 # Run extended ping to measure packet loss and latency baseline
