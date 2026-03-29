@@ -94,3 +94,17 @@ tracert <device-ip>
 **Document:** Average RTT, % packet loss, which hop introduces latency.
 
 ---
+
+## PRTG Threshold Reference (Common Sensors)
+
+| Sensor Type | Warning Threshold | Down Threshold |
+|-------------|------------------|----------------|
+| Ping | >50ms avg | >200ms or >5% loss |
+| CPU Load | >80% | >95% |
+| Memory | >85% | >95% |
+| Disk | >80% full | >90% full |
+| HTTP | >5s response | Timeout / non-200 |
+| SNMP Traffic | >80% bandwidth | >95% bandwidth |
+```
+
+---
