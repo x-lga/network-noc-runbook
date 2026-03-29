@@ -30,3 +30,13 @@ ping <device-ip> -n 10
 # If ping responds: sensor may be misconfigured (e.g., wrong SNMP community string)
 # If ping fails: device is genuinely unreachable
 ```
+
+---
+
+### Step 2 — Check if adjacent devices are affected
+
+- In PRTG device tree: expand the parent device group
+- If multiple devices on the same switch are DOWN → switch or uplink issue (not individual device)
+- If only one device is DOWN → isolated device failure
+
+---
