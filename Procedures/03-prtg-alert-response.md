@@ -105,6 +105,6 @@ tracert <device-ip>
 | Disk | >80% full | >90% full |
 | HTTP | >5s response | Timeout / non-200 |
 | SNMP Traffic | >80% bandwidth | >95% bandwidth |
-```
+
 
 ---
