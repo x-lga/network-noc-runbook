@@ -40,3 +40,12 @@ ping <device-ip> -n 10
 - If only one device is DOWN → isolated device failure
 
 ---
+
+### Step 3 — Check PRTG history
+
+- Click the sensor > Graph > Last 24 hours
+- Look for: did this drop suddenly or degrade gradually?
+- Sudden drop = likely power or link failure
+- Gradual degradation = resource exhaustion or hardware wear
+
+---
