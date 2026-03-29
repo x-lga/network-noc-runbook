@@ -66,3 +66,14 @@ If no management interface:
 - Log the contact attempt in the ticket
 
 ---
+
+### Step 5 — Escalate if unresolved
+
+Escalate to L2 with:
+- Device name, IP, and PRTG sensor name
+- Screenshot of the alert timeline
+- Result of direct ping test
+- Result of adjacent device check
+- Action taken (reboot attempt and result)
+
+---
