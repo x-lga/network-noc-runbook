@@ -77,3 +77,20 @@ Escalate to L2 with:
 - Action taken (reboot attempt and result)
 
 ---
+
+## Procedure — High Latency / Packet Loss Warning
+
+```cmd
+# Run extended ping to measure packet loss and latency baseline
+ping <device-ip> -n 100
+
+# Run pathping for per-hop latency and loss
+pathping <device-ip>
+
+# Run tracert to identify where latency is introduced
+tracert <device-ip>
+```
+
+**Document:** Average RTT, % packet loss, which hop introduces latency.
+
+---
