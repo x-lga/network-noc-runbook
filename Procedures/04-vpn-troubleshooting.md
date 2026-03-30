@@ -27,3 +27,14 @@ One user → continue with client-side procedure below
 ```
 
 ---
+
+## Step 2 — Local Connectivity Check
+
+```cmd
+# Confirm local internet works before blaming VPN
+ping 8.8.8.8
+
+# If ping fails: local internet issue — see Procedure 01 first
+```
+
+---
