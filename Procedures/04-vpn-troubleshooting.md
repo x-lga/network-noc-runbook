@@ -1,4 +1,4 @@
-# Procedure 04 — VPN Troubleshooting
+# Procedure 04 - VPN Troubleshooting
 
 **Category:** Remote Access  
 **ITIL 4 Priority:** P2 (single user) / P1 (multiple users)
@@ -13,7 +13,7 @@
 
 ---
 
-## Step 1 — Scope Check (Critical First Step)
+## Step 1 - Scope Check (Critical First Step)
 
 ```
 Q: Is this one user or multiple users?
@@ -28,7 +28,7 @@ One user → continue with client-side procedure below
 
 ---
 
-## Step 2 — Local Connectivity Check
+## Step 2 - Local Connectivity Check
 
 ```cmd
 # Confirm local internet works before blaming VPN
@@ -39,7 +39,7 @@ ping 8.8.8.8
 
 ---
 
-## Step 3 — Review VPN Client Logs
+## Step 3 - Review VPN Client Logs
 
 VPN client log locations:
 
@@ -54,12 +54,12 @@ Look for: disconnect reason codes, authentication errors, timeout messages.
 
 ---
 
-## Step 4 — MTU Check and Fix
+## Step 4 - MTU Check and Fix
 
 VPN encapsulation adds overhead. MTU too high = packet fragmentation = drops.
 
 ```cmd
-# Test MTU — increase size until ping fails, then subtract 28 for VPN overhead
+# Test MTU - increase size until ping fails, then subtract 28 for VPN overhead
 ping 8.8.8.8 -f -l 1400
 ping 8.8.8.8 -f -l 1300
 
@@ -69,7 +69,7 @@ netsh interface ipv4 set subinterface "Wi-Fi" mtu=1400 store=persistent
 ```
 
 ---
-## Step 5 — WiFi vs Wired Test
+## Step 5 - WiFi vs Wired Test
 
 Ask user to connect via ethernet cable and retry VPN. If VPN is stable on wired:
 - Issue is WiFi instability (interference, weak signal, driver)
@@ -77,7 +77,7 @@ Ask user to connect via ethernet cable and retry VPN. If VPN is stable on wired:
 
 ---
 
-## Step 6 — Escalation Package
+## Step 6 - Escalation Package
 
 Provide to L2:
 - VPN client name and version
