@@ -38,3 +38,18 @@ ping 8.8.8.8
 ```
 
 ---
+
+## Step 3 — Review VPN Client Logs
+
+VPN client log locations:
+
+| Client | Log Location |
+|--------|-------------|
+| Cisco AnyConnect | %ProgramData%\Cisco\Cisco AnyConnect Secure Mobility Client\temp\AnyConnect.log |
+| GlobalProtect | %APPDATA%\Palo Alto Networks\GlobalProtect\PanGPS.log |
+| OpenVPN | C:\Program Files\OpenVPN\log\ |
+| WireGuard | Viewable in WireGuard app: Show Log |
+
+Look for: disconnect reason codes, authentication errors, timeout messages.
+
+---
