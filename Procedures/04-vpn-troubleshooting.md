@@ -76,3 +76,17 @@ Ask user to connect via ethernet cable and retry VPN. If VPN is stable on wired:
 - Recommend: update WiFi drivers, move closer to AP, or use wired
 
 ---
+
+## Step 6 — Escalation Package
+
+Provide to L2:
+- VPN client name and version
+- VPN log file (attached)
+- Result of scope check (one user or many)
+- Local internet connectivity status
+- MTU test result
+- WiFi vs wired test result
+- Time and duration of disconnections
+```
+
+---
