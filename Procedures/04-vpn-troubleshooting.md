@@ -53,3 +53,19 @@ VPN client log locations:
 Look for: disconnect reason codes, authentication errors, timeout messages.
 
 ---
+
+## Step 4 — MTU Check and Fix
+
+VPN encapsulation adds overhead. MTU too high = packet fragmentation = drops.
+
+```cmd
+# Test MTU — increase size until ping fails, then subtract 28 for VPN overhead
+ping 8.8.8.8 -f -l 1400
+ping 8.8.8.8 -f -l 1300
+
+# If 1400 fails but 1300 passes: MTU issue confirmed
+# Fix via adapter settings:
+netsh interface ipv4 set subinterface "Wi-Fi" mtu=1400 store=persistent
+```
+
+---
