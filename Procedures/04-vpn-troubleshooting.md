@@ -69,3 +69,10 @@ netsh interface ipv4 set subinterface "Wi-Fi" mtu=1400 store=persistent
 ```
 
 ---
+## Step 5 — WiFi vs Wired Test
+
+Ask user to connect via ethernet cable and retry VPN. If VPN is stable on wired:
+- Issue is WiFi instability (interference, weak signal, driver)
+- Recommend: update WiFi drivers, move closer to AP, or use wired
+
+---
