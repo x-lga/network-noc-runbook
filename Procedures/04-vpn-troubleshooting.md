@@ -12,3 +12,18 @@
 - VPN connected but cannot reach internal resources
 
 ---
+
+## Step 1 — Scope Check (Critical First Step)
+
+```
+Q: Is this one user or multiple users?
+
+Multiple users → P1 escalation immediately. Server-side issue.
+    - Notify L2/L3 immediately
+    - Check VPN server status in monitoring dashboard
+    - Do not spend time on client-side steps
+
+One user → continue with client-side procedure below
+```
+
+---
