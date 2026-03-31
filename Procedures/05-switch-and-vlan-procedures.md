@@ -35,3 +35,9 @@
 ## Procedure — pfSense Firewall VLAN Rule Check
 
 pfSense firewall rules for inter-VLAN are applied on the source interface.
+
+```
+VLAN 10 (Work) rules:
+  - Allow VLAN 10 to WAN (internet)
+  - Allow VLAN 10 to VLAN 99 (management) - restricted to admin IPs
+  - Block VLAN 10 to VLAN 20
