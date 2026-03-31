@@ -31,3 +31,7 @@
 ```
 
 ---
+
+## Procedure — pfSense Firewall VLAN Rule Check
+
+pfSense firewall rules for inter-VLAN are applied on the source interface.
