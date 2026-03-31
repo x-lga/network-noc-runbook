@@ -65,3 +65,23 @@ VLAN 10 (Work) rules:
    show interfaces GigabitEthernet0/X    (look for: input errors, CRC errors, collisions)
 4. Escalate if port hardware faulted
 ```
+
+---
+
+## Common Switch Commands Reference
+
+```bash
+# Cisco IOS — most commonly encountered in enterprise environments
+show version                          # Device model, IOS version, uptime
+show interfaces status                # All port status at a glance
+show ip interface brief               # IP addresses on L3 interfaces
+show vlan brief                       # VLAN list and port assignments
+show mac address-table                # MAC to port mapping
+show spanning-tree                    # STP topology
+show cdp neighbors                    # Connected Cisco devices
+show logging                          # System logs
+ping 192.168.1.1                      # Connectivity test from switch
+```
+```
+
+---
