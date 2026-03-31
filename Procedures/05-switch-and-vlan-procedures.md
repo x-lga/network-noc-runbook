@@ -41,3 +41,7 @@ VLAN 10 (Work) rules:
   - Allow VLAN 10 to WAN (internet)
   - Allow VLAN 10 to VLAN 99 (management) - restricted to admin IPs
   - Block VLAN 10 to VLAN 20
+
+  VLAN 20 (Guest) rules:
+  - Allow VLAN 20 to WAN (internet) only
+  - Block VLAN 20 to everything else (including VLAN 10)
