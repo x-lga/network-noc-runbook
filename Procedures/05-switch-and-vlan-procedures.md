@@ -32,7 +32,7 @@
 
 ---
 
-## Procedure — pfSense Firewall VLAN Rule Check
+## Procedure - pfSense Firewall VLAN Rule Check
 
 pfSense firewall rules for inter-VLAN are applied on the source interface.
 
@@ -53,7 +53,7 @@ VLAN 10 (Work) rules:
 
 ---
 
-## Procedure — Switch Port Down (Single User No Connectivity)
+## Procedure - Switch Port Down (Single User No Connectivity)
 
 ```
 1. Physical check: cable seated, correct switch port
@@ -82,6 +82,6 @@ show cdp neighbors                    # Connected Cisco devices
 show logging                          # System logs
 ping 192.168.1.1                      # Connectivity test from switch
 ```
-```
+
 
 ---
