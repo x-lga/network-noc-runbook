@@ -45,3 +45,8 @@ VLAN 10 (Work) rules:
   VLAN 20 (Guest) rules:
   - Allow VLAN 20 to WAN (internet) only
   - Block VLAN 20 to everything else (including VLAN 10)
+
+  Verification:
+  pfSense > Diagnostics > Packet Capture (select interface, capture to confirm traffic flow)
+  pfSense > Status > System Logs > Firewall (check blocked traffic)
+```
