@@ -50,3 +50,18 @@ VLAN 10 (Work) rules:
   pfSense > Diagnostics > Packet Capture (select interface, capture to confirm traffic flow)
   pfSense > Status > System Logs > Firewall (check blocked traffic)
 ```
+
+---
+
+## Procedure — Switch Port Down (Single User No Connectivity)
+
+```
+1. Physical check: cable seated, correct switch port
+2. Switch port status:
+   show interfaces GigabitEthernet0/X status   (Cisco)
+   If: 'err-disabled' → port shut down due to error (PoE, security violation, flapping)
+   Fix: interface GigabitEthernet0/X → shutdown → no shutdown
+3. Check for speed/duplex mismatch:
+   show interfaces GigabitEthernet0/X    (look for: input errors, CRC errors, collisions)
+4. Escalate if port hardware faulted
+```
