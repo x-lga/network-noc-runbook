@@ -1,4 +1,4 @@
-# Procedure 05 — Switch and VLAN Procedures
+# Procedure 05 - Switch and VLAN Procedures
 
 **Category:** Network Infrastructure  
 **ITIL 4 Priority:** P1 (switch down affects multiple users) / P3 (single port issue) 
@@ -17,7 +17,7 @@
 
 ---
 
-## Procedure — Device Not Getting IP on Expected VLAN
+## Procedure - Device Not Getting IP on Expected VLAN
 
 ```
 1. Identify which port the device is connected to (check cable path or switch port label)
