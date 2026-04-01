@@ -1,10 +1,10 @@
-# Procedure 06 — Escalation Criteria and Handoff Standard
+# Procedure 06 - Escalation Criteria and Handoff Standard
 
 **ITIL 4 Alignment:** Incident Management — escalation is a controlled, documented action, not an admission of failure.
 
 ---
 
-## When to Escalate — Decision Tree
+## When to Escalate - Decision Tree
 
 ```
 Is the issue resolved at L1?
@@ -61,10 +61,10 @@ URGENCY:
 
 | Tier | Scope | Contact Method |
 |------|-------|----------------|
-| L2 — Systems | AD, server, on-site hardware | Ticket queue + Slack ping |
-| L2 — Network | Routing, switches, WAN | Ticket queue + phone for P1 |
-| L2 — Security | Any security incident | Direct phone call for P1, ticket for P2+ |
-| L3 — Vendor | Hardware under warranty | Open vendor support case, attach serial |
+| L2 - Systems | AD, server, on-site hardware | Ticket queue + Slack ping |
+| L2 - Network | Routing, switches, WAN | Ticket queue + phone for P1 |
+| L2 - Security | Any security incident | Direct phone call for P1, ticket for P2+ |
+| L3 - Vendor | Hardware under warranty | Open vendor support case, attach serial |
 
 **For P1: Always call L2. Do not rely on ticket queue alone.**
 ```
