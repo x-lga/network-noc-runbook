@@ -16,3 +16,7 @@ Is the issue resolved at L1?
 Multiple users affected?
     YES → Escalate immediately (potential P1)
     NO  → Continue single-user triage
+
+Security indicator present? (phishing, malware, breach, data leak)
+    YES → Escalate immediately AND notify security lead
+    NO  → Continue standard triage    
