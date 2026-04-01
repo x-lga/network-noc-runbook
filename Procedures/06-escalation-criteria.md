@@ -12,3 +12,7 @@ Is the issue resolved at L1?
     NO  → Has the SLA window elapsed?
                YES → Escalate immediately
                NO  → Continue L1 steps
+
+Multiple users affected?
+    YES → Escalate immediately (potential P1)
+    NO  → Continue single-user triage
