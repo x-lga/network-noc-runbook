@@ -19,4 +19,9 @@ Multiple users affected?
 
 Security indicator present? (phishing, malware, breach, data leak)
     YES → Escalate immediately AND notify security lead
-    NO  → Continue standard triage    
+    NO  → Continue standard triage
+
+Root cause cannot be identified within 15 minutes at L1?
+    YES → Escalate — do not hold a P2/P1 ticket at L1 trying to be a hero
+    NO  → Document steps and continue
+```    
