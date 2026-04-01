@@ -24,4 +24,35 @@ Security indicator present? (phishing, malware, breach, data leak)
 Root cause cannot be identified within 15 minutes at L1?
     YES → Escalate — do not hold a P2/P1 ticket at L1 trying to be a hero
     NO  → Document steps and continue
-```    
+```
+
+---
+
+## L2 Escalation Handoff Template
+
+When escalating a ticket, the handoff note must include ALL of the following:
+
+```
+TICKET: [ID]
+PRIORITY: [P1/P2/P3/P4]
+CALLER: [Name] | [Department] | [Contact]
+ISSUE: [One-sentence description]
+
+TIMELINE:
+  - [Time] Issue reported by user
+  - [Time] L1 triage began
+  - [Time] [Step 1 taken and result]
+  - [Time] [Step 2 taken and result]
+  - [Time] [Step 3 taken and result]
+
+CURRENT STATE:
+  [What is happening right now]
+
+REASON FOR ESCALATION:
+  [Why this is not resolvable at L1]
+
+URGENCY:
+  [Business impact — what cannot the user/team do right now]
+```
+
+---
