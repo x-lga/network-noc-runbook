@@ -56,3 +56,17 @@ URGENCY:
 ```
 
 ---
+
+## Escalation Contacts
+
+| Tier | Scope | Contact Method |
+|------|-------|----------------|
+| L2 — Systems | AD, server, on-site hardware | Ticket queue + Slack ping |
+| L2 — Network | Routing, switches, WAN | Ticket queue + phone for P1 |
+| L2 — Security | Any security incident | Direct phone call for P1, ticket for P2+ |
+| L3 — Vendor | Hardware under warranty | Open vendor support case, attach serial |
+
+**For P1: Always call L2. Do not rely on ticket queue alone.**
+```
+
+---
