@@ -67,6 +67,6 @@ URGENCY:
 | L3 - Vendor | Hardware under warranty | Open vendor support case, attach serial |
 
 **For P1: Always call L2. Do not rely on ticket queue alone.**
-```
+
 
 ---
