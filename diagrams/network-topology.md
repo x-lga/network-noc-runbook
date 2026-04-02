@@ -37,3 +37,5 @@
    │  joined     │  │  & Bash lab  │
    └─────────────┘  └──────────────┘
 ```
+
+## WireGuard VPN Overlay
