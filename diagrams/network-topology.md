@@ -39,3 +39,12 @@
 ```
 
 ## WireGuard VPN Overlay
+
+```
+Remote Admin ──[WireGuard Encrypted Tunnel]──► pfSense WireGuard Server
+                                               │
+                                               ├── Peer: Remote-Admin-01
+                                               │   Allowed IPs: 10.10.10.0/24
+                                               │
+                                               └── VLAN 10 access granted
+```
