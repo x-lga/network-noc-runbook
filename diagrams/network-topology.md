@@ -59,6 +59,6 @@ Remote Admin ──[WireGuard Encrypted Tunnel]──► pfSense WireGuard Serve
 | VLAN 20 | WAN | Allow | Guest internet |
 | VLAN 20 | VLAN 10 | Block | Isolation |
 | VLAN 20 | VLAN 99 | Block | No management access |
-```
+
 
 ---
