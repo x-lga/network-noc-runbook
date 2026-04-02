@@ -48,3 +48,17 @@ Remote Admin ──[WireGuard Encrypted Tunnel]──► pfSense WireGuard Serve
                                                │
                                                └── VLAN 10 access granted
 ```
+
+## VLAN Firewall Rule Summary
+
+| Source | Destination | Rule | Reason |
+|--------|------------|------|--------|
+| VLAN 10 | WAN | Allow | Corporate internet access |
+| VLAN 10 | VLAN 20 | Block | Prevent lateral movement |
+| VLAN 10 | VLAN 99 | Allow (admin IPs only) | Management access |
+| VLAN 20 | WAN | Allow | Guest internet |
+| VLAN 20 | VLAN 10 | Block | Isolation |
+| VLAN 20 | VLAN 99 | Block | No management access |
+```
+
+---
