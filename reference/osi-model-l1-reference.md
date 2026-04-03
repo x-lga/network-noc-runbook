@@ -26,4 +26,3 @@
 | 3389 | TCP | RDP |
 | 5985 | TCP | WinRM (PowerShell remoting) |
 | 161 | UDP | SNMP |
-```
