@@ -13,3 +13,17 @@
 ## L1 Rule: Work from Layer 1 upward. Never skip.
 
 "Ping works but website doesn't" = Layer 3 passes, Layer 7 (application) fails. Escalate.
+
+## Common Ports Reference
+
+| Port | Protocol | Service |
+|------|---------|---------|
+| 22 | TCP | SSH |
+| 25 | TCP | SMTP |
+| 53 | UDP/TCP | DNS |
+| 80 | TCP | HTTP |
+| 443 | TCP | HTTPS |
+| 3389 | TCP | RDP |
+| 5985 | TCP | WinRM (PowerShell remoting) |
+| 161 | UDP | SNMP |
+```
