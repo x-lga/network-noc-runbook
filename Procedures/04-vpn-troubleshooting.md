@@ -1,9 +1,9 @@
 # Procedure 04 - VPN Troubleshooting
 
-**Category:** Remote Access
-**ITIL 4 Priority:** P2 (single user) | P1 (multiple users)
-**Cert alignment:** CompTIA Network+, CompTIA Security+
-**Average resolution time at L1:** 15–30 minutes (single user) | Immediate escalation (multiple users)
+**Category:** Remote Access\
+**ITIL 4 Priority:** P2 (single user) | P1 (multiple users)  
+**Cert alignment:** CompTIA Network+, CompTIA Security+  
+**Average resolution time at L1:** 15–30 minutes (single user) | Immediate escalation (multiple users)  
 **Last reviewed:** 2026-07
 
 ---
