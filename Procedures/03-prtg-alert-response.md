@@ -203,9 +203,9 @@ for each device after initial deployment. Generic defaults generate false positi
 
 | Sensor | Warning Threshold | Down Threshold | Notes |
 |--------|------------------|----------------|-------|
-| Ping (latency) | > 50ms average | > 200ms or > 5% loss | Tune per device — servers on LAN should be < 5ms |
+| Ping (latency) | > 50ms average | > 200ms or > 5% loss | Tune per device - servers on LAN should be < 5ms |
 | CPU Load | > 80% for 5 min | > 95% for 5 min | Brief spikes are normal; sustained is not |
-| Memory | > 85% utilised | > 95% utilised | Physical RAM only — page file is separate |
+| Memory | > 85% utilised | > 95% utilised | Physical RAM only - page file is separate |
 | Disk Free Space | < 20% free | < 10% free | Critical servers may need lower warning threshold |
 | HTTP Response | > 5 seconds | Timeout / non-200 response | Tune to application baseline |
 | SNMP Interface Traffic | > 80% utilisation | > 95% utilisation | Check for broadcast storms at high utilisation |
