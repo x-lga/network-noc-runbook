@@ -106,7 +106,7 @@ pfSense firewall rule for WireGuard interface:
 
 **Why VLAN 20 blocks IoT-to-IoT traffic:**
 IoT devices are notoriously insecure. A compromised IoT device (smart bulb, IP camera)
-should not be able to communicate with other IoT devices on the same segment — this
+should not be able to communicate with other IoT devices on the same segment - this
 prevents a compromised device from being used as a pivot point. This is the client
 isolation pattern used in enterprise guest Wi-Fi deployments.
 
