@@ -1,9 +1,9 @@
 # Procedure 03 - PRTG Network Monitor Alert Response
 
-**Category:** NOC Event Management
-**ITIL 4 Priority:** Determined by sensor type, device criticality, and number of affected sensors
-**Cert alignment:** CompTIA Network+, CompTIA A+
-**Last reviewed:** 2026-07
+**Category:** NOC Event Management  
+**ITIL 4 Priority:** Determined by sensor type, device criticality, and number of affected sensors  
+**Cert alignment:** CompTIA Network+, CompTIA A+  
+**Last reviewed:** 2026-07  
 
 ---
 

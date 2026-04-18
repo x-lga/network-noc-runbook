@@ -1,10 +1,10 @@
 # Procedure 02 - DNS Troubleshooting
 
-**Category:** Network Incident - Name Resolution
-**ITIL 4 Priority:** P2 (single user cannot reach resources by name)
-**Cert alignment:** CompTIA Network+
-**Average resolution time at L1:** 5–15 minutes
-**Last reviewed:** 2026-07
+**Category:** Network Incident - Name Resolution  
+**ITIL 4 Priority:** P2 (single user cannot reach resources by name)  
+**Cert alignment:** CompTIA Network+  
+**Average resolution time at L1:** 5–15 minutes  
+**Last reviewed:** 2026-07  
 
 ---
 

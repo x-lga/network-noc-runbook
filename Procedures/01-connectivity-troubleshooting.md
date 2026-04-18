@@ -1,9 +1,9 @@
 # Procedure 01 - Internet Connectivity Troubleshooting
 
-**Category:** Network Incident - Connectivity
-**ITIL 4 Priority:** P2 (single user) | P1 (multiple users or site-wide)
-**Cert alignment:** CompTIA Network+, CompTIA A+
-**Average resolution time at L1:** 10–20 minutes (approximately 85% resolved without escalation)
+**Category:** Network Incident - Connectivity  
+**ITIL 4 Priority:** P2 (single user) | P1 (multiple users or site-wide)  
+**Cert alignment:** CompTIA Network+, CompTIA A+  
+**Average resolution time at L1:** 10–20 minutes (approximately 85% resolved without escalation)  
 **Last reviewed:** 2026-07
 
 ---
