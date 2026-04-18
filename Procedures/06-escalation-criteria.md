@@ -25,7 +25,7 @@ Escalate to L2 **immediately** when any of the following is true:
 
 **1. SLA breach approaching or reached**
 The ticket has been open for a duration approaching the resolution SLA for its priority
-and the issue is not resolved. Do not wait for the SLA to expire — escalate with buffer.
+and the issue is not resolved. Do not wait for the SLA to expire - escalate with buffer.
 
 **2. Root cause unidentifiable at L1**
 L1 cannot determine the cause of the issue within the appropriate triage window:
